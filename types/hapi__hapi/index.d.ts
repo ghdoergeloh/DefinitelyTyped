@@ -91,6 +91,7 @@ export interface PluginRegistered {
 
 /* tslint:disable-next-line:no-empty-interface */
 export interface PluginsStates {
+    [pluginName: string]: any;
 }
 
 /* tslint:disable-next-line:no-empty-interface */
